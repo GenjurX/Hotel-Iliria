@@ -172,7 +172,7 @@ if (isset($_POST['submit']) && ($_POST['title']) && isset($_POST['name']) && iss
                             $total = $row['price'] * $quantity;
                             $_SESSION['total'] = $total;
                             ?>
-                            <span>€<?php echo $total; ?></span>
+                            <span>€<?php echo $total; ?> per night</span>
                         </div>
                     </div>
 
